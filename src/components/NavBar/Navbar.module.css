@@ -1,0 +1,40 @@
+.body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-container{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0.5em;
+}
+
+
+.right-container{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.header-btn{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    padding: 0% 1em;
+    color: #5a5a5a;
+    text-decoration: none;
+}
+
+.header-profile-btn{
+    height: 3em;
+    padding: 0% 1em;
+}
