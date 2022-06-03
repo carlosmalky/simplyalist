@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
       <a href="https://carlosmalky.com" className={classes["footer-text"]}>
-        A Akeem Malky website
+        Akeem Malky © 2022
       </a>
     </>
   );
