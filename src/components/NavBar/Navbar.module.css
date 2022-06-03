@@ -34,7 +34,15 @@
     text-decoration: none;
 }
 
+.header-btn:hover{
+    color: #D55757;
+}
+
 .header-profile-btn{
     height: 3em;
-    padding: 0% 1em;
+}
+
+.header-profile-btn:hover{
+    background-color: #D55757;
+    border-radius: 50%;
 }

@@ -1,4 +1,4 @@
-.body{
+.body {
     min-width: 100vw;
     min-height: 100%;
 
@@ -8,7 +8,7 @@
     align-items: flex-start;
 }
 
-.top-container{
+.top-container {
     min-height: 100%;
     width: 100%;
     display: flex;
@@ -17,7 +17,7 @@
     align-items: center;
 }
 
-.left-container{
+.left-container {
     width: 100%;
     min-height: 100%;
     text-align: start;
@@ -25,19 +25,19 @@
     align-items: center;
 }
 
-.title{
+.title {
     font-size: 3em;
     color: #707070;
     padding: 0% 10%;
 }
 
-.paragraph{
+.paragraph {
     font-size: 1.6em;
     color: #707070;
     padding: 0% 10%;
 }
 
-.right-container{
+.right-container {
     width: 100%;
     min-height: 100%;
     display: flex;
@@ -45,14 +45,39 @@
     align-items: center;
 }
 
-.infographic{
+.infographic {
     width: 27em;
 }
 
-.bottom-container{
+.bottom-container {
     position: fixed;
     bottom: 0;
     margin: 1% 0%;
     width: 100%;
-    text-align: center;  
+    text-align: center;
+}
+
+@media screen and (orientation: portrait) {
+    .body {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        color: red;
+    }
+
+    .top-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .left-container {}
+
+    .right-container {
+        height: auto;
+    }
+
+    .infographic {
+        width: 20em;
+    }
 }

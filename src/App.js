@@ -6,6 +6,7 @@ import Home from "./components/Home/Home";
 import Navbar from "./components/NavBar/Navbar";
 import Recentsearches from "./components/RecentSearches/Recentsearches";
 import Footer from "./components/Footer/Footer";
+import SignIn from "./components/SignIn/SignIn";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           element={<Recentsearches></Recentsearches>}
           path="/recentsearches"
         ></Route>
+        <Route element={<SignIn></SignIn>} path="/signin"></Route>
       </Routes>
     </Router>
   );

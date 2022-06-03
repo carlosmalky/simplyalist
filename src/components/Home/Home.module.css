@@ -21,6 +21,9 @@
     margin-bottom: 0.5em;
 }
 
+.middle-container{
+    text-align: center;
+}
 
 .search-bar{
     background: none;
@@ -43,3 +46,36 @@
     text-align: center;
 }
 
+@media screen and (orientation: portrait) {
+
+    .body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+    }
+
+    .top-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-svg{
+        width: 17em;
+    }
+
+    .middle-container{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        font-size: small;
+    }
+    .search-bar{
+        width: 70%;
+    }
+}

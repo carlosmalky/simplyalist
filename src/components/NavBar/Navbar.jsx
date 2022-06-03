@@ -21,11 +21,13 @@ function Navbar() {
           <Link className={classes["header-btn"]} to="/recentsearches">
             Recent Searches
           </Link>
-          <img
-            className={classes["header-profile-btn"]}
-            src={ProfileIcon}
-            alt="profile of Profile"
-          ></img>
+          <Link to="/signin">
+            <img
+              className={classes["header-profile-btn"]}
+              src={ProfileIcon}
+              alt="profile of Profile"
+            ></img>
+          </Link>
         </div>
       </div>
     </>

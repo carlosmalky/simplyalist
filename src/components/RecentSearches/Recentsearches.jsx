@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./Recentsearches.module.css";
 import Footer from "../Footer/Footer";
 import { ReactComponent as Locksvg } from "../../assets/lock.svg";
+import { Link } from "react-router-dom";
 
 function Recentsearches() {
   return (
@@ -26,8 +27,11 @@ function Recentsearches() {
           </div>
           <div className={classes["right-container"]}>
             <p className={classes["paragraph"]}>
-              Please Sign In to see your recent searches
+              Sign In to see your recent searches
             </p>
+            <Link className={classes["signin-button"]} to="/signin">
+              Sign In
+            </Link>
           </div>
         </div>
         <div className={classes["bottom-container"]}>
